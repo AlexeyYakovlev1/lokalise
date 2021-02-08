@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header/Header.jsx';
+import Welcome from './components/Welcome/Welcome.jsx';
+import Companies from './components/Companies/Companies.jsx';
+import About from './components/About/About.jsx';
+import Lokalize from './components/Lokalize/Lokalize.jsx';
+import Productivity from './components/Productivity/Productivity.jsx';
+import Quote from './components/Quote/Quote.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Welcome />
+      <Companies />
+      <About />
+      <Lokalize />
+      <Productivity />
+      <Quote />
     </div>
   );
 }

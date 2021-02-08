@@ -1,0 +1,49 @@
+@import '../../index.sass'
+
+.lokalize
+	margin-top: 150px
+	background-color: #FFF8E4
+
+	& .container
+		padding: 120px
+
+	&-title
+		text-align: center
+		font-family: $graphik
+		font-weight: 600
+		font-size: 50px
+		line-height: 60px
+
+	&__list
+		display: flex
+		align-items: center
+		justify-content: space-between
+		flex-wrap: wrap
+		margin: 0 auto
+		margin-top: 80px
+
+		& li
+			width: 330px
+
+			& img
+				display: block
+				margin: 0 auto
+				padding-bottom: 25px
+
+			& h4
+				font-family: $graphik
+				font-weight: 600
+				font-size: 25px
+				line-height: 35px
+				text-align: center
+				padding-bottom: 20px
+
+			& p
+				font-family: $graphik
+				font-weight: normal
+				font-size: 18px
+				line-height: 25px
+				text-align: center
+
+			&:nth-child(-n+3)
+				padding-bottom: 75px
