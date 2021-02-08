@@ -20,10 +20,15 @@ import managers from './managers.png';
 import developers from './developers.png';
 import translators from './translators.png';
 import person from './person.png';
+import cake from './cake.png';
+import usersLovedUs from './users-loved-us.png';
+import capterra from './capterra.png';
+import star from './star.png';
+import tools from './tools.png';
 
 export {
 	logo, welcome, specialized, virgin, tidal, revolut, yelp, daimler,
 	projectApp, shorten, ensure, less, webApps, mobileApps, games,
 	documents, marketingEmails, iot, managers, developers, translators,
-	person
+	person, cake, usersLovedUs, capterra, star, tools
 };

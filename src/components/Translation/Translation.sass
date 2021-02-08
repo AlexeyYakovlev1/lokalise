@@ -1,2 +1,48 @@
 @import '../../index.sass'
 
+.translation
+	background-color: #DABC98
+	padding: 88px 0
+
+	& .container
+		display: flex
+		justify-content: space-between
+		align-items: center
+
+	&__left
+		display: flex
+		align-items: center
+		padding-right: 120px
+		border-right: 1px solid #000000
+
+		&-title
+			font-family: $graphik
+			font-weight: 600
+			font-size: 35px
+			line-height: 50px
+			max-width: 461px
+			margin-left: 67px
+
+	&__right
+		display: flex
+		align-items: center
+
+		&-right
+			margin-left: 70px
+
+		&-left-star-list
+			display: flex
+			align-items: center
+			margin-top: 20px
+
+			&-item:not(:first-child)
+				margin-left: 6px
+
+		&-left-text
+			margin-top: 15px
+			font-family: $graphik
+			font-weight: normal
+			font-size: 15px
+			line-height: 25px
+			letter-spacing: 0.75px
+			text-transform: uppercase
