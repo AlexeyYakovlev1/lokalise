@@ -9,6 +9,7 @@ import Quote from './components/Quote/Quote.jsx';
 import Translation from './components/Translation/Translation.jsx';
 import Tools from './components/Tools/Tools.jsx';
 import Made from './components/Made/Made.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Translation />
       <Tools />
       <Made />
+      <Footer />
     </div>
   );
 }

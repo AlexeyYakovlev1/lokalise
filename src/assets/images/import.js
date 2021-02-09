@@ -25,10 +25,12 @@ import usersLovedUs from './users-loved-us.png';
 import capterra from './capterra.png';
 import star from './star.png';
 import tools from './tools.png';
+import bike from './bike.png';
+import logoFooter from './logo-footer.png';
 
 export {
 	logo, welcome, specialized, virgin, tidal, revolut, yelp, daimler,
 	projectApp, shorten, ensure, less, webApps, mobileApps, games,
 	documents, marketingEmails, iot, managers, developers, translators,
-	person, cake, usersLovedUs, capterra, star, tools
+	person, cake, usersLovedUs, capterra, star, tools, bike, logoFooter
 };
